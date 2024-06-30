@@ -34,6 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  linked, 
 } from "../assets";
 
 export const navigation = [
@@ -295,34 +296,63 @@ export const benefits = [
 ];
 
 export const socials = [
+ 
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/mlsa.amity/",
   },
   {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    id:"1",
+    title: "Linkedin",
+    iconUrl: linked,
+    url:"https://www.linkedin.com/company/msc-amity/"
+  }
+];
+
+export const images = [
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/",
   },
   {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/",
+  },
+];
+
+export const testimonials = [
+  {
+    text: "I've been using this web hosting service for a few months and it's been nothing but problems. ",
+    name: 'Michael Brown',
+    title: 'Online Entrepreneur',
+    rating: 2,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "The service started out great, but recently it's been having a lot of issues. My site has experienced several outages and customer support has not been helpful.",
+    name: 'Sarah Smith',
+    title: 'Blogger',
+    rating: 3,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "I was hoping for better performance given the cost, but unfortunately, the service has been subpar. Downtime and slow response times have been a constant issue.",
+    name: 'David Lee',
+    title: 'Web Developer',
+    rating: 2,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "Not satisfied with the service. Too many outages and poor customer support. Would not recommend to anyone looking for reliable hosting.",
+    name: 'Emily Davis',
+    title: 'E-commerce Store Owner',
+    rating: 1,
+    image: 'https://via.placeholder.com/50',
   },
 ];

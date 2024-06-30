@@ -87,4 +87,31 @@
 .-rotate-360 {
   @apply rotate-[-360deg]
 }
+.gradient-border-wrapper {
+  position: relative;
+  padding: 2.5px; /* Adjust the padding as needed */
+  background: linear-gradient(45deg, rgb(235, 31, 211), rgb(175, 11, 175), rgb(214, 146, 19), pink);
+  border-radius: 1.2rem; /* Adjust the border radius as needed */
+}
+.image-gallery-image {
+  border-radius: 1.2rem;
+}
+.border-gradient {
+  border-width: 2px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #7F00FF, #E100FF, #FFA500); /* Purple at the top, orange at the bottom */
+  border-radius: 1rem; 
+}
+
+.border-gradient1 {
+  border-width: 10px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #140639, #7961BA, #6E4FC0, #15073A); /* Gradient with specified colors */
+  border-radius: 1rem; 
+}
+
+
+
+
+
 

@@ -34,6 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
+  linked, 
 } from "../assets";
 
 export const navigation = [
@@ -244,16 +245,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "🎉 Welcome to MLSC!",
+    text: "In June 2023, the Microsoft Learn Students' Club was established to promote technological growth by using various Microsoft technologies.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "🤝 Friendly and Supportive Community",
+    text: "Our club fosters a friendly, supportive, and motivated environment to enhance and improve coding skills, critical thinking, logic, and management skills.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +262,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "🌟 Vision",
+    text: "With a vision to empower individuals with the latest advancements and tools, MLSC is dedicated to strengthening a community of tech enthusiasts and innovators.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "🚀 Mission",
+    text: "The mission of MLSC is to foster development in technological domains through various effective channels, including hands-on projects, international collaborations, seminars, and competitions using Microsoft technologies.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +279,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "💡 Inspiring Creativity",
+    text: "We inspire students through creativity and emerging technologies. MLSC will prepare students for the rapidly changing tech industry in a modern and innovative manner.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "🌍 Making a Difference",
+    text: "By working towards these goals, MLSC hopes to make a real difference in the lives of its members and in the world around them.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -295,34 +296,63 @@ export const benefits = [
 ];
 
 export const socials = [
+ 
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/mlsa.amity/",
   },
   {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    id:"1",
+    title: "Linkedin",
+    iconUrl: linked,
+    url:"https://www.linkedin.com/company/msc-amity/"
+  }
+];
+
+export const images = [
+  {
+    original: "https://picsum.photos/id/1018/1000/600/",
+    thumbnail: "https://picsum.photos/id/1018/250/150/",
   },
   {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    original: "https://picsum.photos/id/1015/1000/600/",
+    thumbnail: "https://picsum.photos/id/1015/250/150/",
+  },
+  {
+    original: "https://picsum.photos/id/1019/1000/600/",
+    thumbnail: "https://picsum.photos/id/1019/250/150/",
+  },
+];
+
+export const testimonials = [
+  {
+    text: "I've been using this web hosting service for a few months and it's been nothing but problems. ",
+    name: 'Michael Brown',
+    title: 'Online Entrepreneur',
+    rating: 2,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "The service started out great, but recently it's been having a lot of issues. My site has experienced several outages and customer support has not been helpful.",
+    name: 'Sarah Smith',
+    title: 'Blogger',
+    rating: 3,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "I was hoping for better performance given the cost, but unfortunately, the service has been subpar. Downtime and slow response times have been a constant issue.",
+    name: 'David Lee',
+    title: 'Web Developer',
+    rating: 2,
+    image: 'https://via.placeholder.com/50',
+  },
+  {
+    text: "Not satisfied with the service. Too many outages and poor customer support. Would not recommend to anyone looking for reliable hosting.",
+    name: 'Emily Davis',
+    title: 'E-commerce Store Owner',
+    rating: 1,
+    image: 'https://via.placeholder.com/50',
   },
 ];

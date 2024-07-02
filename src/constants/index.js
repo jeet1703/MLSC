@@ -50,21 +50,21 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Team",
-    url: "#Team",
+    title: "Gallery",
+    url: "#Gallery",
   },
   {
     id: "3",
+    title: "Testimonials",
+    url: "#Test",
+  },
+  {
+    id: "4",
     title: "Events",
     url: "#Events",
   },
   {
-    id: "4",
-    title: "Testimonials",
-    url: "#Testimonials",  
-  },
-  {
-    id: "5",
+    id: "6",
     title: "Contact Us",
     url: "#Contact",
     onlyMobile: true,
@@ -356,3 +356,34 @@ export const testimonials = [
     image: 'https://via.placeholder.com/50',
   },
 ];
+
+
+export const blogPosts = [
+  {
+    title: "From Code to Cure: Big Tech in Healthcare",
+    author: "Emily Gilbert",
+    link: "#",
+  },
+  {
+    title: "Why Spotify Wrapped Drops in November",
+    author: "Aditya Chheda",
+    link: "#",
+  },
+  {
+    title: "Unboxing Complexity: Black Box Networks Demystified",
+    author: "Aastha Gupta",
+    link: "#",
+  },
+  {
+    title: "Internet Anonymity 101: Lurking in Darkness",
+    author: "Aditya Sareen",
+    link: "#",
+  },
+  {
+    title: "The Deepfake Tango",
+    author: "Aditya Chheda",
+    link: "#",
+  },
+
+];
+

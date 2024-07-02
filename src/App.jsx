@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Gall from './Components/Gall'
 import ContactUs from './Components/Contact'
 import Testimonial from './Components/Testimonial'
+import Newsletter from './Components/Newsletter'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Gall/>
         <Testimonial/>
         <ContactUs/>
+        <Newsletter/>
         <Footer/>
     </div>
     </>

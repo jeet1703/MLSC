@@ -74,7 +74,7 @@ const Header = () => {
         </nav>
 
         
-       <Button className='hidden lg:flex'>
+       <Button href="#Contact"  className='hidden lg:flex'>
         Contact us
        </Button>
 

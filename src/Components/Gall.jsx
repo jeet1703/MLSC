@@ -8,9 +8,9 @@ import { images } from "../constants";
 
 const Gall = () => {
   return (
-    <Section crosses className="!px-0 !py-10">
+    <Section id="Gallery" crosses className="!px-0 !py-10">
       <div className="max-w-screen-lg mx-auto text-center md:mt-20 md:mb-20">
-        <h2 className="text-4xl md:text-6xl mb-16">GALLERY</h2>
+        <h2 className="text-4xl md:text-6xl mb-16">Gallery</h2>
         <div className="gradient-border-wrapper">
           <div className="gradient-border-inner">
             <ImageGallery 

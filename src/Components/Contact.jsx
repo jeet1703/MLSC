@@ -3,8 +3,8 @@ import Section from './Section';
 import Button from './Button';
 
 const ContactUs = () => (
-  <Section crosses className="bg-cover bg-center py-16 object-contain max-w-full">
-    <div className="container mx-auto">
+  <Section crosses className="bg-cover bg-center  object-contain max-w-full !px-0 py-10">
+    <div id="Contact"  className="container mx-auto">
       <div className="bg-black bg-opacity-25 p-10 rounded-lg text-white  mx-auto my-10 md:p-20 md:w-5xl ">
         <h2 className="text-center text-3xl font-bold mb-4">CONTACT US</h2>
         <p className="text-center mb-8">

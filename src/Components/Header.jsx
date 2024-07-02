@@ -44,7 +44,7 @@ const Header = () => {
         {/* <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img src='./MLSC.png' width={100} height={40} alt="Brainwave" />
         </a> */}
-        <p className=" hover:text-purple-500 font-bold text-3xl">MLSC AMITY</p>
+        <p className=" hover:text-purple-500 transition-all animate-bounce font-bold text-3xl">MLSC AMITY</p>
 
         <nav
           className={`${

@@ -392,3 +392,35 @@ export const blogPosts = [
 
 ];
 
+export const events = [
+  {
+    id: 1,
+    date: 'July 15, 2024',
+    title: 'Event 1',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    registrationLink: 'https://example.com/event1-registration',
+  },
+  {
+    id: 2,
+    date: 'August 5, 2024',
+    title: 'Event 2',
+    description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    registrationLink: 'https://example.com/event2-registration',
+  },
+  {
+    id: 3,
+    date: 'September 20, 2024',
+    title: 'Event 3',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    registrationLink: 'https://example.com/event3-registration',
+  },
+  {
+    id: 4,
+    date: 'October 10, 2024',
+    title: 'Event 4',
+    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    registrationLink: 'https://example.com/event4-registration',
+  },
+];
+
+

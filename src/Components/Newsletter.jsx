@@ -9,7 +9,7 @@ const Newsletter = () => {
 
   return (
     <Section id="Newsletter"  crosses className="relative bg-transparent !px-0 !py-10">
-      <div className="relative z-10 mx-4 lg:mx-20 my-8 lg:my-24"> {/* Adjusted margin for different screen sizes */}
+      <div className="relative z-10 mx-4 lg:mx-24 my-8 lg:my-24"> {/* Adjusted margin for different screen sizes */}
         <h2 className="text-4xl md:text-6xl  text-white text-center mb-8 md:mb-12">Newsletter</h2> {/* Added margin bottom for spacing */}
         <ul className="mt-2 md:mt-4 space-y-4"> {/* Adjusted top margin for spacing on small screens */}
           {recentPosts.map((post, index) => (

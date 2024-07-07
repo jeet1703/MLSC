@@ -8,6 +8,7 @@ import Gall from './Components/Gall'
 import ContactUs from './Components/Contact'
 import Testimonial from './Components/Testimonial'
 import Newsletter from './Components/Newsletter'
+import Eventsection from './Components/Eventsection'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Benefits/>
         <Gall/>
         <Testimonial/>
+        <Eventsection/>
         <ContactUs/>
         <Newsletter/>
         <Footer/>

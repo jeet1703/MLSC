@@ -11,7 +11,7 @@ const Gall = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 }); // Adjust the maxWidth based on your breakpoints
 
   return (
-    <Section id="Gallery" crosses className="!px-0 !py-10 mx-5">
+    <Section id="Gallery" crosses className="!px-0 !py-10">
       <div className="max-w-screen-lg mx-auto text-center md:mt-20 md:mb-20">
         <h2 className="text-4xl md:text-6xl mb-16">Gallery</h2>
         <div className="gradient-border-wrapper">

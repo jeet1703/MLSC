@@ -33,6 +33,7 @@ const Testimonials = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: false, // Hide the arrows
     responsive: [
       {
         breakpoint: 1024,
@@ -51,8 +52,19 @@ const Testimonials = () => {
     ],
   };
 
+  const getRandomShape = () => {
+    const shapes = [
+      'border-radius: 50% 0 50% 50%;', // Example of a random shape
+      'border-radius: 10% 40% 30% 60%;',
+      'border-radius: 40% 50% 60% 20%;',
+      'clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%);', // Example of using clip-path
+      'clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);',
+    ];
+    return shapes[Math.floor(Math.random() * shapes.length)];
+  };
+
   return (
-    <Section   crosses className="px-0 py-10" id="Test">
+    <Section crosses className="px-0 py-10" id="Test">
       <div className="container mx-auto">
         <Heading
           className="md:max-w-md lg:max-w-2xl mx-auto text-center"
@@ -63,18 +75,18 @@ const Testimonials = () => {
             <div
               key={testimonial.id}
               className="block relative h-auto sm:p-4 bg-cover bg-center bg-no-repeat w-full sm:w-72 md:w-96 lg:w-104 xl:w-120 mx-auto"
-              style={{ backgroundImage: `url(${testimonial.backgroundUrl})` }}
+              style={{
+                backgroundImage: `url(${testimonial.backgroundUrl})`,
+                ...getRandomShape(),
+              }}
             >
               <div className="border-gradient2 relative z-10 bg-slate-900 p-4 rounded-lg shadow-lg">
                 <StarRating stars={testimonial.stars} />
                 <div className="flex items-center mb-3">
-                  {/* <img
-                    src={testimonial.profilePicUrl}
-                    alt={testimonial.name}
-                    className="h-12 w-12 rounded-full"
-                  /> */}
                   <div>
-                    <div className="text-lg font-bold  text-purple-500">{testimonial.name}</div>
+                    <div className="text-lg font-bold text-purple-500">
+                      {testimonial.name}
+                    </div>
                   </div>
                 </div>
                 <p className="text-sm text-white">{testimonial.text}</p>

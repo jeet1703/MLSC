@@ -109,61 +109,12 @@
   border-image-source: linear-gradient(to bottom, #140639, #7961BA, #6E4FC0, #15073A); /* Gradient with specified colors */
   border-radius: 1rem; 
 }
-
-.horizontal-timeline {
-  position: relative;
-  padding: 2rem 0;
+.image-gallery-image {
+  border-radius: 20px; /* Adjust the radius as needed */
 }
 
-.horizontal-timeline .timeline-line {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 4px;
-  height: 100%;
-  background-color: #e9ecef;
-  transform: translateX(-50%);
-}
-
-.horizontal-timeline .event-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.horizontal-timeline .event-item:before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 50%;
-  background-color: #e9ecef;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.horizontal-timeline .event-item-alt:before {
-  top: auto;
-  bottom: 0;
-}
-
-.horizontal-timeline .event-item .event-date {
-  position: absolute;
-  top: -2rem;
-}
-
-.horizontal-timeline .event-item-alt .event-date {
-  top: auto;
-  bottom: -2rem;
-}
-
-.horizontal-timeline .event-item h5 {
-  margin-top: 2.5rem;
-}
-
-.horizontal-timeline .event-item-alt h5 {
-  margin-top: 0;
-  margin-bottom: 2.5rem;
+/* Ensure the container holding the image is also rounded */
+.image-gallery-slide {
+  overflow: hidden; /* Prevent the image from overflowing */
+  border-radius: 20px; /* Adjust the radius as needed */
 }
